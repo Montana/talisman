@@ -1,2 +1,4 @@
 before_install:
   - curl https://thoughtworks.github.io/talisman/install.sh | sudo bash
+script:
+  - talisman
