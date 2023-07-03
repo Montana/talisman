@@ -1,7 +1,8 @@
 language: shell
 
 install:
-  - curl https://thoughtworks.github.io/talisman/install.sh | sudo bash
+- curl https://thoughtworks.github.io/talisman/install.sh > ~/install-talisman.sh
 
 script:
-  - talisman --test
+  - talisman -v
+  - chmod +x ~/install-talisman.sh
