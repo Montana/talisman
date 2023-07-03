@@ -1,0 +1,10 @@
+regex:
+  - pattern: '(?i)password'
+    description: "Potential password"
+  - pattern: '(?i)apikey'
+    description: "Potential API key"
+
+message:
+  max_length: 72
+  min_length: 10
+  # Add more message rules as needed
