@@ -1,7 +1,8 @@
 language: shell
 
 install:
-  - curl --silent  https://raw.githubusercontent.com/thoughtworks/talisman/master/global_install_scripts/update_talisman.bash > /tmp/update_talisman.bash && /bin/bash /tmp/update_talisman.bash talisman-binary
-
+  - chmod +x taliman.sh 
+  - bash talisman.sh 
+  
 script:
   - talisman -v
