@@ -6,4 +6,3 @@ install:
   
 script:
   - export PATH="$HOME/.talisman:$PATH"
-  - cd ~/.talisman/talisman_linux_386 --scan
