@@ -5,4 +5,4 @@ install:
   - bash talisman.sh 
   
 script:
-  - talisman -v
+  - talisman --version
