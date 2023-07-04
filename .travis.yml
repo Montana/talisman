@@ -1,7 +1,7 @@
 language: shell
 
 install:
-  - chmod +x taliman.sh 
+  - chmod +x talisman.sh 
   - bash talisman.sh 
   
 script:
