@@ -5,5 +5,5 @@ install:
   - bash talisman.sh 
   
 script:
-  - export TALISMAN_INTERACTIVE=true
-  - talisman --scan
+  - export PATH="$HOME/.talisman:$PATH"
+  - cd ~/.talisman/talisman_linux_386 --scan
